@@ -1,0 +1,32 @@
+1) 데이터 분석: 데이터 수집(Internet, DB,...)by 크롤링(Ex. beautifulsoup) -> 정형(formal)/비정형(informal) -> 데이터 전처리(Ex. numpy, pandas) 
+-> 데이터 분석 -> 분석 결과 -> 시각화(Ex. matplotlib, seaborn...) -> Reporting 
+
+2) 인공지능
+a: ML(Machine Learning), DL(Deep learning), Data Maining
+* 1) 시각화 과정에서 -> 모델링(ML or DL) -> 모델 (1. 예측 모델 2. 분류 모델) -> 예측/분류 작업 수행 -> 모델 평가 by 정확도
+
+
+#정규화 and 표준화 
+
+정규화 = 각 data - 최소/ 최대 - 최소
+표준화 = 각 data - 평균/ 표준편차 (주로 데이터 전처리 과정에서 필요)
+
+#신경망
+AI> ML (DL로 못하는 것을 해주니까) > DL (정화하니까 but 모든 문제를 대체할 수 없음)
+Ex. random forest DL 분류 모델... (DL 모델링 -> DL (예측/분류) 모델) 
+
+#AI 모델링의 Purpose  
+Ex. 주택 가격= 평수 * 1000 + 층수 * 100 + 역거리 * a(역수) + bias 
+(1000, 100 ... = 가중치) -> 따라서 가장 적절한 가중치를 찾는 것이 모델링이다. 
+*평수와 층수 정규화/표준화 필요
+
+결측치: non-null
+결측값: 값이 있는 것 
+
+#np.sum(pd.isnull(titanic))
+#np.sum 함수는 열 단위로 True의 개수를 count
+#스칼라? 크기만 나타낸 것 
+#vector? 크기와 방향을 나타낸 것
+#열 하나당 1 차원 
+#벡터의 내적 
+Ex. 100 pixel (100*100) -> 10000차원 
